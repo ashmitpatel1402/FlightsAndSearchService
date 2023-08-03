@@ -1,3 +1,4 @@
+//isme db object k andar saare table k model associate h to apan yaha se cityrepository mein city object import kar sakte h
 'use strict';
 
 const fs = require('fs');
