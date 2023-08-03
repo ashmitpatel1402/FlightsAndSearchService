@@ -1,4 +1,4 @@
-const {CityService}=require('../services/city-service');
+const CityService=require('../services/city-service');
 const cityservice=new CityService();
 //POST, data->req.body
 const create=async (req,res)=>{
@@ -84,4 +84,11 @@ const update=async (req,res)=>{
          });
     }
 
+}
+
+module.exports={
+    create,
+    update,
+    get,
+    destroy
 }
